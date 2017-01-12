@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Test</string>
+    <string name="btn_okhttp_mainActivity">okhttp</string>
+    //进入到okhttp主界面的按钮
+    <string name="btn_retrofit_mainActivity">retrofit</string>
+    //进入到retrofit主界面的按钮
+    <string name="btn_rxJava_mainActivity">RxJava</string>
+    //进入到RxJava主界面的按钮
+    <string name="btn_rxAndroid_mainActivity">RxAndroid</string>
+    //进入到RxAndroid主界面的按钮
+    <string name="btn_eventBus_mainActivity">EventBus</string>
+    //进入到EventBus主界面的按钮
+    <string name="btn_bgaBanner_mainActivity">BGABanner</string>
+    //进入到BGABanner主界面的按钮
+    <string name="btn_flycoTablayout_mainActivity">FlycoTabLayout</string>
+    //进入到FlycoTabLayout主界面的按钮
+    <string name="btn_baseRecyclerViewAdapterHelper_mainActivity">BaseRecyclerViewAdapterHelper</string>
+    //进入到BaseRecyclerViewAdapterHelper主界面的按钮
+    <string name="btn_ultraPullToRefresh_mainActivity">UltraPullToRefresh</string>
+    //进入到UltraPullToRefresh主界面的按钮
 </resources>

@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.utsoft.cc.test">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -15,6 +17,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".okhttp.OkhttpMainActivity"
+            android:exported="true" />
+        <activity android:name=".retrofit.RetrofitMainActivity" />
+        <activity android:name=".rxjava.RxJavaMainActivity" />
+        <activity android:name=".rxandroid.RxAndroidMainActivity" />
+        <activity android:name=".eventbus.EventBusMainActivity" />
+        <activity android:name=".bgaBanner.BgaBannerMainActivity" />
+        <activity android:name=".flycotablayout.FlycoTabMainActivity" />
+        <activity android:name=".baserecyclerviewadapterhelper.RecyclerViewHelperMainActivity" />
+        <activity android:name=".ultrapulltorefresh.RefreshMainActivity"></activity>
     </application>
 
 </manifest>
