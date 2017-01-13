@@ -18,4 +18,17 @@
     //进入到BaseRecyclerViewAdapterHelper主界面的按钮
     <string name="btn_ultraPullToRefresh_mainActivity">UltraPullToRefresh</string>
     //进入到UltraPullToRefresh主界面的按钮
+
+    <string name="btn_nextPage_EventBusMainActivity">Next Page</string>
+    <string name="tv_content_EventBusMainActivity">这里显示下一个页面传递回来的值</string>
+    <string name="btn_send_EventBus2Activity">发送下面文本的内容到第一个节目</string>
+    <string name="tv_content_EventBus2Activity">这是eventBus第二个页面传递给第一个页面的内容</string>
+
+    <string name="btn_guideEnter_BgaBannerMainActivity">进入主界面</string>
+
+    <string name="btn_get_OkhttpMainActivity">GET</string>
+    <string name="btn_post_OkhttpMainActivity">POST</string>
+    <string name="btn_send_RxJavaMainActivity">SEND</string>
+    <string name="btn_send_RxAndroidMainActivity">SEND</string>
+
 </resources>

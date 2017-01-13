@@ -27,7 +27,9 @@
         <activity android:name=".bgaBanner.BgaBannerMainActivity" />
         <activity android:name=".flycotablayout.FlycoTabMainActivity" />
         <activity android:name=".baserecyclerviewadapterhelper.RecyclerViewHelperMainActivity" />
-        <activity android:name=".ultrapulltorefresh.RefreshMainActivity"></activity>
+        <activity android:name=".ultrapulltorefresh.RefreshMainActivity" />
+        <activity android:name=".eventbus.EventBus2Activity" />
+        <activity android:name=".bgaBanner.BgaBanner2Activity"></activity>
     </application>
 
 </manifest>
