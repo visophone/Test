@@ -11,7 +11,11 @@ import com.utsoft.cc.test.baserecyclerviewadapterhelper.RecyclerViewHelperMainAc
 import com.utsoft.cc.test.bgaBanner.BgaBannerMainActivity;
 import com.utsoft.cc.test.eventbus.EventBusMainActivity;
 import com.utsoft.cc.test.flycotablayout.FlycoTabMainActivity;
+import com.utsoft.cc.test.greendao.GreenDaoMainActivity;
+import com.utsoft.cc.test.jiecaovideoplayer.JieCaoVideoPlayerMainActivity;
+import com.utsoft.cc.test.leakcancry.LeakCancryMainActivity;
 import com.utsoft.cc.test.okhttp.OkhttpMainActivity;
+import com.utsoft.cc.test.realm.RealmMainActivity;
 import com.utsoft.cc.test.retrofit.RetrofitMainActivity;
 import com.utsoft.cc.test.rxandroid.RxAndroidMainActivity;
 import com.utsoft.cc.test.rxjava.RxJavaMainActivity;
@@ -94,7 +98,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(this,RecyclerViewHelperMainActivity.class));
                 break;
             case R.id.btn_ultraPullToRefresh_mainActivity:
-                startActivity(new Intent(this,RefreshMainActivity.class));
+//                startActivity(new Intent(this,RefreshMainActivity.class));
+//                startActivity(new Intent(this,RealmMainActivity.class));
+//                startActivity(new Intent(this,GreenDaoMainActivity.class));
+//                startActivity(new Intent(this,JieCaoVideoPlayerMainActivity.class));
+                startActivity(new Intent(this,LeakCancryMainActivity.class));
                 break;
         }
     }

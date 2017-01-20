@@ -46,10 +46,16 @@ public class RecyclerViewHelperMainActivity extends AppCompatActivity {
      */
     private void initData(){
 
+        String iconUrl1="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=2389140428,1315216178&fm=116&gp=0.jpg";
+        String iconUrl2="https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1948129653,2713569659&fm=116&gp=0.jpg";
+        String iconUrl3="https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=61092371,2557115966&fm=116&gp=0.jpg";
+        String iconUrl4="http://image13-c.poco.cn/mypoco/qing/20130218/15/9774720947242458168_496x310_210.gif";
+
+
         list=new ArrayList<>();
-        list.add(new UserEntity("张三",0000001));
-        list.add(new UserEntity("李四",0000002));
-        list.add(new UserEntity("王五",0000003));
+        list.add(new UserEntity("张三",0000001,iconUrl1));
+        list.add(new UserEntity("李四",0000002,iconUrl2));
+        list.add(new UserEntity("王五",0000003,iconUrl4));
 
         //使用匿名内部类的方法加载
 //        BaseQuickAdapter adapter = new BaseQuickAdapter<UserEntity,BaseViewHolder>(

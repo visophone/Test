@@ -2,8 +2,10 @@ package com.utsoft.cc.test.baserecyclerviewadapterhelper;
 
 
 import android.util.Log;
+import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.bumptech.glide.Glide;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 import com.utsoft.cc.test.R;
@@ -28,6 +30,7 @@ public class RecyclerViewAdapter extends BaseQuickAdapter<UserEntity,BaseViewHol
     protected void convert(com.chad.library.adapter.base.BaseViewHolder helper, UserEntity item) {
         helper.setText(R.id.tv_name_recyclerViewAdapter,item.getName())
                 .setText(R.id.tv_id_recyclerViewAdapter,item.getId()+"");
+        Glide.with(mContext).load(item.getIcon()).asGif().into((ImageView) helper.getView(R.id.iv_icon_RecyclerViewAdapter));
         }
 
         }

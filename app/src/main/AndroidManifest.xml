@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
+        android:name=".MyApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -29,7 +30,13 @@
         <activity android:name=".baserecyclerviewadapterhelper.RecyclerViewHelperMainActivity" />
         <activity android:name=".ultrapulltorefresh.RefreshMainActivity" />
         <activity android:name=".eventbus.EventBus2Activity" />
-        <activity android:name=".bgaBanner.BgaBanner2Activity"></activity>
+        <activity android:name=".bgaBanner.BgaBanner2Activity" />
+        <activity android:name=".glide.GlideMainActivity" />
+        <activity android:name=".realm.RealmMainActivity" />
+        <activity android:name=".greendao.GreenDaoMainActivity" />
+        <activity android:name=".mpandroidchart.MPAndroidChartMainActivity" />
+        <activity android:name=".jiecaovideoplayer.JieCaoVideoPlayerMainActivity" />
+        <activity android:name=".leakcancry.LeakCancryMainActivity"></activity>
     </application>
 
 </manifest>
